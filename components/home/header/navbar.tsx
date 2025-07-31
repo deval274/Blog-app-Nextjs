@@ -27,25 +27,25 @@ const Navbar = () => {
           <div className="hidden md:flex items-center gap-4">
             <Link
               href="/articles"
-              className="text-sm font-medium text-gray-700 hover:text-gray-900"
+              className="text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
             >
               Articles
             </Link>
             <Link
               href="/tutorial"
-              className="text-sm font-medium text-gray-700 hover:text-gray-900"
+              className="text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white "
             >
               Tutorial
             </Link>
             <Link
               href="/about"
-              className="text-sm font-medium text-gray-700 hover:text-gray-900"
+              className="text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
             >
               About
             </Link>
             <Link
               href="/dashboard"
-              className="text-sm font-medium text-gray-700 hover:text-gray-900"
+              className="text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
             >
               Dashboard
             </Link>
